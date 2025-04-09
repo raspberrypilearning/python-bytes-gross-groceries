@@ -1,4 +1,4 @@
-name: "Code Project Example"
-identifier: "code-project-example"
+name: "Python bytes - Spicy strings"
+identifier: "python-bytes-spicy-strings"
 type: 'python'
-build: false
+build: true
