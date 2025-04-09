@@ -15,7 +15,11 @@ filename: spicy.py
 line_numbers: true
 line_number_start: 5
 ---
-print('Zorp tilted their head and asked, "How spicy is that exactly?"')
+name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
+
+print(f'{name} tilted their head and asked, "How spicy is that exactly?"')
 print(spice_emoji * 5)
 --- /code ---
 </div>

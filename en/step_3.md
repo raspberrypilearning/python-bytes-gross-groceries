@@ -15,6 +15,9 @@ filename: spicy.py
 line_numbers: true
 line_number_start: 6
 ---
+name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
 spice_level = 5
 
 print(f'The robot displayed the heat level meter: {spice_emoji * spice_level}')
@@ -23,6 +26,15 @@ print(f'The robot displayed the heat level meter: {spice_emoji * spice_level}')
 
 <div class="c-project-output">
 The robot displayed the heat level meter: 🌶️🌶️🌶️🌶️🌶️
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try changing the value of `spice_level` to see how the output changes!<br />
+Make it extra spicy, or not spicy at all.
+
 </div>
 
 <div class="c-project-callout c-project-callout--debug">

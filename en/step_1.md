@@ -5,7 +5,7 @@ Create variables for the alien, the food, and the spice emoji. Use f-strings to 
 
 <h2 class="c-project-heading--explainer">Welcome to the space café</h2>
 
-Start the story using f-strings and variables. Zorp is about to have a spicy encounter.
+You can use a variable to store some information. Later, you can include that variable in a sentence using an **f-string**. The curly braces `{}` show where the value will go in the sentence.
 
 <div class="c-project-code">
 --- code ---
@@ -15,11 +15,11 @@ filename: spicy.py
 line_numbers: true
 line_number_start: 1
 ---
-alien_name = 'Zorp'
+name = 'Zorp'
 menu_item = 'lava noodles'
 spice_emoji = '🌶️'
 
-print(f'{alien_name} walked into the space café and looked around.')
+print(f'{name} walked into the space café and looked around.')
 print('A robot waiter rolled over to take their order. 🤖')
 print(f'The robot beeped: "Today's special is {menu_item}!"')
 print(f'It added: "Spice level: {spice_emoji}"')

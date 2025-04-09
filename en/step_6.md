@@ -13,12 +13,19 @@ The robot makes a mistake — we’ll catch it using variables.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 11
+line_number_start: 8
 ---
+name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
+spice_level = 5
+price = 4
+order_quantity = 3
+total_price = price * order_quantity
 wrong_total = total_price + 2
 
 print(f'The robot flashed a number on its screen: {wrong_total} credits. 🤔')
-print(f'{alien_name} raised an eyebrow. "That doesn't look right..."')
+print(f'{name} raised an eyebrow. "That doesn't look right..."')
 print(f'They quickly recalculated: {price} × {order_quantity} = {total_price}')
 --- /code ---
 </div>

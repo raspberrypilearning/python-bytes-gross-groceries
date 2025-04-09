@@ -13,12 +13,17 @@ Now let’s order more than one plate and work out the cost.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 9
+line_number_start: 7
 ---
+name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
+spice_level = 5
+price = 4
 order_quantity = 3
 total_price = price * order_quantity
 
-print(f'{alien_name} ordered {order_quantity} plates for their friends.')
+print(f'{name} ordered {order_quantity} plates for their friends.')
 print(f'Total cost: {total_price} credits.')
 --- /code ---
 </div>

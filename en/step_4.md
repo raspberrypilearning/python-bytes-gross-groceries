@@ -13,8 +13,12 @@ Let’s add a price to the menu and format it into a full sentence.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 8
+line_number_start: 6
 ---
+name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
+spice_level = 5
 price = 4
 
 print(f'The robot added: "Each plate of {menu_item} costs {price} credits."')
