@@ -1,42 +1,44 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Meet the alien and the robot</h2>
+--- task ---
+Create variables for the alien, the food, and the spice emoji. Use f-strings to begin the story.
+--- /task ---
 
-A brief description - one or two sentences. 
+<h2 class="c-project-heading--explainer">Welcome to the space café</h2>
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+Start the story using f-strings and variables. Zorp is about to have a spicy encounter.
 
---- no-print ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: spicy.py
+line_numbers: true
+line_number_start: 1
+---
+alien_name = 'Zorp'
+menu_item = 'lava noodles'
+spice_emoji = '🌶️'
 
-Editor embed 
-
---- /no-print ---
-
---- no-print ---
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+print(f'{alien_name} walked into the space café and looked around.')
+print('A robot waiter rolled over to take their order. 🤖')
+print(f'The robot beeped: "Today's special is {menu_item}!"')
+print(f'It added: "Spice level: {spice_emoji}"')
+--- /code ---
 </div>
 
---- /no-print ---
+<div class="c-project-output">
+Zorp walked into the space café and looked around.<br />
+A robot waiter rolled over to take their order. 🤖<br />
+The robot beeped: "Today's special is lava noodles!"<br />
+It added: "Spice level: 🌶️"
+</div>
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try your own alien and dish names:<br />
+👽 'Blip' / 'moon tacos'<br />
+🤖 'Glorb' / 'plasma soup'
+
+</div>

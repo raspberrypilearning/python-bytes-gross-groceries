@@ -1,22 +1,36 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Use a spice level variable</h2>
+--- task ---
+Create a variable for the spice level and use it in your f-string.
+--- /task ---
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+<h2 class="c-project-heading--explainer">Spice level meter</h2>
 
------- OR ---------
+Let’s set the heat level with a variable and use it in a sentence.
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: spicy.py
+line_numbers: true
+line_number_start: 6
+---
+spice_level = 5
 
---- print-only --- 
+print(f'The robot displayed the heat level meter: {spice_emoji * spice_level}')
+--- /code ---
+</div>
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+<div class="c-project-output">
+The robot displayed the heat level meter: 🌶️🌶️🌶️🌶️🌶️
+</div>
 
---- /print-only ---
+<div class="c-project-callout c-project-callout--debug">
 
---- no-print ---
+### Debugging
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+Make sure:<br />
+- `spice_emoji` and `spice_level` are both used<br />
+- You include the `f` in the f-string
 
---- /no-print ---
-
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+</div>
