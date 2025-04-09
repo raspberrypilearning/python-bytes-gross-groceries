@@ -2,42 +2,29 @@
 
 ## Project Overview
 
-**Spicy Strings** is a light-hearted Python project where learners help an alien named Zorp order food in a space café. They will learn to create and format output using **variables**, **f-strings**, and simple **maths** — all wrapped in a fun emoji-filled storyline.
-
-No string methods are used in this lesson — the focus is on formatting, variables, string multiplication, and basic numeric calculations.
+**Spicy Strings** invites learners to write a Python program that tells a short play in a space café. Zorp (the alien) meets a robot waiter and orders a spicy meal! Along the way, learners use variables, f-strings, string and number multiplication, and spot a mathematical mistake made by the robot.
 
 ---
 
 ## What Learners Will Practise
 
-- ✅ Using `f-strings` to format messages with variables
-- ✅ Declaring text and number variables
-- ✅ Repeating strings with `*`
-- ✅ Doing simple maths with variables (e.g. `price * quantity`)
-
----
-
-## Key Concepts Introduced
-
-| Concept               | Example                                  |
-|------------------------|------------------------------------------|
-| f-string formatting    | `f'{name} ordered {item}'`              |
-| emoji * number         | `'🌶️' * 5`                              |
-| basic calculations     | `price * quantity`                      |
-| narrative progression  | Tell a story with data and logic        |
+- ✅ Using string and number variables
+- ✅ Printing with f-strings and expressions like `{price * quantity}`
+- ✅ Using `.upper()` to format text for shouting
+- ✅ Repeating emojis using `emoji * level`
+- ✅ Debugging an incorrect calculation
 
 ---
 
 ## Teaching Tips
 
-- Let learners play with the emoji and spice levels.
-- Encourage them to swap in their own alien names and meals.
-- Remind them that f-strings need an `f` in front!
-- The robot’s mistake in Step 6 gives learners a chance to "debug".
+- Encourage creative values for the variables: names, dishes, emoji, and prices
+- Let learners run and modify the starter code to see how it changes the output
+- Use the receipt printout to reinforce how variables combine for complex results
 
 ---
 
 ## Suggested Follow-up
 
-- Introduce `.upper()`, `.lower()` and `.replace()` in the next lesson.
-- Invite learners to create a second dish or menu item.
+- Continue the "play" format in future lessons with `.replace()` or `input()`
+- Introduce user interaction or conditionals for more robot dialogue
