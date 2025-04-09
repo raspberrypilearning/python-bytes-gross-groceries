@@ -1,0 +1,4 @@
+name: "Python bytes - Spicy strings"
+identifier: "python-bytes-spicy-strings"
+type: 'python'
+build: true

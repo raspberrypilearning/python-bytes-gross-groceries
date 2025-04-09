@@ -1,0 +1,22 @@
+title: "Spicy Strings 🌶️🧪"
+hero_image: images/banner.png
+description: Help Zorp order alien food with f-strings and Python variables.
+meta_title: Python coding projects for kids and teens | Spicy Strings
+meta_description: Learn Python with the Raspberry Pi Foundation. Use f-strings and variables to serve spicy alien food with robots and emoji!
+version: 1
+listed: false
+copyedit: false
+last_tested: "2025-04-04"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+  - title: step_7
+    completion:
+      - internal
+      - external
