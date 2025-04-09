@@ -1,11 +1,16 @@
 <h2 class="c-project-heading--task">Ask a question</h2>
 --- task ---
-Make your character ask how spicy the food is.
+Make your character ask how spicy the food is using `.upper()` to format the speaker name like a script.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Is it too spicy?</h2>
 
-Use the `.upper()` method to make your character shout for dramatic effect!
+In scripts and plays, the speaker’s name is usually written in **capital letters**.  
+We can do this in Python using `.upper()` on a string.
+
+For example, `name.upper()` will change `'Zorp'` to `'ZORP'`.
+
+Let’s use that to format your character’s line in the script!
 
 <div class="c-project-code">
 --- code ---
@@ -21,4 +26,12 @@ print(f'{name.upper()}: How spicy is that?')
 
 <div class="c-project-output">
 ZORP: How spicy is that?
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+You can also use `.upper()` for other characters in your script if you'd like.
+
 </div>

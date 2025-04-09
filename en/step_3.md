@@ -7,6 +7,8 @@ Show the robot’s spice symbol and multiply it using a variable.
 
 The robot uses emoji to describe how spicy it is.
 
+We can use `emoji * level` to repeat the emoji. This works because `emoji` is a string, and `level` is a number!
+
 <div class="c-project-code">
 --- code ---
 ---
@@ -23,4 +25,12 @@ print(f'The symbol blinks and displays {emoji * level}!')
 <div class="c-project-output">
 The robot displays 🌶️ on it's screen.<br />
 The symbol blinks and displays 🌶️🌶️🌶️🌶️🌶️!
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try making `level` higher or lower to see what happens.
+
 </div>

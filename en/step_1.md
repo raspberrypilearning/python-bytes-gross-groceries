@@ -7,6 +7,7 @@ Print the opening scene of your space café story using the `name` variable.
 
 You’ve got some starter code that defines the characters and numbers. Let’s start the story.
 
+You can use f-strings in Python to add variables into your text. You need to place an `f` before the string starts and the variable name needs to be surrounded by `{}`
 <div class="c-project-code">
 --- code ---
 ---

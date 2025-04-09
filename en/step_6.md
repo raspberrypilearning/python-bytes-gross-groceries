@@ -7,6 +7,10 @@ Make the robot print a very spicy receipt!
 
 Use all your variables together to show just how spicy the order really was.
 
+This time, we’re using:  
+- `emoji * level * total_price`  
+This means the emoji will be repeated `level` times per dish, multiplied by how many dishes were ordered.
+
 <div class="c-project-code">
 --- code ---
 ---
@@ -23,4 +27,12 @@ print(emoji * level * total_price)
 <div class="c-project-output">
 The robot prints an odd receipt:<br />
 🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try using a different emoji for the receipt or make your own twist by using `emoji * (level + quantity)` or similar.
+
 </div>

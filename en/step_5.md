@@ -7,6 +7,8 @@ Make the robot say the wrong total, and correct it using variables.
 
 Let’s show a mistake and then correct it using your variables.
 
+Instead of multiplying `price * quantity`, the robot adds them together by mistake. We’ll help your character spot and fix it!
+
 <div class="c-project-code">
 --- code ---
 ---
@@ -25,4 +27,12 @@ print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
 ROBOT: That'll be 7 credits.<br />
 ZORP: That doesn't look right...<br />
 ROBOT: You're correct 4 × 3 = 12
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If you're not getting the right total, double check your `price`, `quantity`, and `total_price` values are set correctly at the top of your file.
+
 </div>
