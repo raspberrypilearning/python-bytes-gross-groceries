@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Add a price per plate</h2>
+<h2 class="c-project-heading--task">Add the price and the order</h2>
 --- task ---
-Create a number variable for the price and show it in the sentence.
+Use your variables to print the cost and quantity of the order.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">What's the damage?</h2>
+<h2 class="c-project-heading--explainer">Time to place an order</h2>
 
-Let’s add a price to the menu and format it into a full sentence.
+Your alien makes their choice.
 
 <div class="c-project-code">
 --- code ---
@@ -13,23 +13,14 @@ Let’s add a price to the menu and format it into a full sentence.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 8
+line_number_start: 13
 ---
-price = 4
-
-print(f'The robot added: "Each plate of {menu_item} costs {price} credits."')
+print(f'Each plate of {item} costs {price} credits.')
+print(f'{name.upper()}: I\'ll have {quantity}')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-The robot added: "Each plate of lava noodles costs 4 credits."
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-Try different prices like 3, 6 or 10.<br />
-You can even use emojis for money like 💰 or 🪙
-
+Each plate of lava noodles costs 4 credits.<br />
+ZORP: I'll have 3
 </div>

@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Fix the robot's mistake</h2>
+<h2 class="c-project-heading--task">Print the final receipt</h2>
 --- task ---
-The robot gets the total wrong — let’s compare it to your calculation.
+Make the robot print a very spicy receipt!
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Glitchy maths!</h2>
+<h2 class="c-project-heading--explainer">Spicy receipt</h2>
 
-The robot makes a mistake — we’ll catch it using variables.
+Use all your variables together to show just how spicy the order really was.
 
 <div class="c-project-code">
 --- code ---
@@ -13,18 +13,14 @@ The robot makes a mistake — we’ll catch it using variables.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 11
+line_number_start: 18
 ---
-wrong_total = total_price + 2
-
-print(f'The robot flashed a number on its screen: {wrong_total} credits. 🤔')
-print(f'{alien_name} raised an eyebrow. "That doesn't look right..."')
-print(f'They quickly recalculated: {price} × {order_quantity} = {total_price}')
+print('The robot prints an odd receipt:')
+print(emoji * level * total_price)
 --- /code ---
 </div>
 
 <div class="c-project-output">
-The robot flashed a number on its screen: 14 credits. 🤔<br />
-Zorp raised an eyebrow. "That doesn't look right..."<br />
-They quickly recalculated: 4 × 3 = 12
+The robot prints an odd receipt:<br />
+🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️
 </div>

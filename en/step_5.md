@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Multiply price by quantity</h2>
+<h2 class="c-project-heading--task">A mistake in the maths</h2>
 --- task ---
-Add a quantity variable and multiply it by the price to get the total.
+Make the robot say the wrong total, and correct it using variables.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Group order time</h2>
+<h2 class="c-project-heading--explainer">Oh no! The robot gets it wrong</h2>
 
-Now let’s order more than one plate and work out the cost.
+Let’s show a mistake and then correct it using your variables.
 
 <div class="c-project-code">
 --- code ---
@@ -13,17 +13,16 @@ Now let’s order more than one plate and work out the cost.
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 9
+line_number_start: 15
 ---
-order_quantity = 3
-total_price = price * order_quantity
-
-print(f'{alien_name} ordered {order_quantity} plates for their friends.')
-print(f'Total cost: {total_price} credits.')
+print(f'ROBOT: That\'ll be {price + quantity} credits.')
+print(f'{name.upper()}: That doesn\'t look right...')
+print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-Zorp ordered 3 plates for their friends.<br />
-Total cost: 12 credits.
+ROBOT: That'll be 7 credits.<br />
+ZORP: That doesn't look right...<br />
+ROBOT: You're correct 4 × 3 = 12
 </div>

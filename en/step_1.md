@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Meet the alien and the robot</h2>
+<h2 class="c-project-heading--task">Set the stage</h2>
 --- task ---
-Create variables for the alien, the food, and the spice emoji. Use f-strings to begin the story.
+Print the opening scene of your space café story using the `name` variable.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Welcome to the space café</h2>
+<h2 class="c-project-heading--explainer">Welcome to the play!</h2>
 
-Start the story using f-strings and variables. Zorp is about to have a spicy encounter.
+You’ve got some starter code that defines the characters and numbers. Let’s start the story.
 
 <div class="c-project-code">
 --- code ---
@@ -13,32 +13,24 @@ Start the story using f-strings and variables. Zorp is about to have a spicy enc
 language: python
 filename: spicy.py
 line_numbers: true
-line_number_start: 1
+line_number_start: 8
 ---
-alien_name = 'Zorp'
-menu_item = 'lava noodles'
-spice_emoji = '🌶️'
-
-print(f'{alien_name} walked into the space café and looked around.')
-print('A robot waiter rolled over to take their order. 🤖')
-print(f'The robot beeped: "Today's special is {menu_item}!"')
-print(f'It added: "Spice level: {spice_emoji}"')
+print(f'{name} and their friends walk into a space café')
+print(f'ROBOT: Today\'s special is {item}!')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-Zorp walked into the space café and looked around.<br />
-A robot waiter rolled over to take their order. 🤖<br />
-The robot beeped: "Today's special is lava noodles!"<br />
-It added: "Spice level: 🌶️"
+Zorp and their friends walk into a space café<br />
+ROBOT: Today's special is lava noodles!
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try your own alien and dish names:<br />
-👽 'Blip' / 'moon tacos'<br />
-🤖 'Glorb' / 'plasma soup'
+Try changing the alien's name or the food to something fun!<br />
+👽 'Glorb' / 'galactic dumplings'<br />
+🛸 'Fizzbit' / 'black hole stew'
 
 </div>
