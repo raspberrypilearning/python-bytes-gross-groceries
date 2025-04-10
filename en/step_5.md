@@ -13,10 +13,12 @@ Instead of multiplying `price * quantity`, the robot adds them together by mista
 --- code ---
 ---
 language: python
-filename: spicy.py
+filename: main.py
 line_numbers: true
-line_number_start: 15
+line_number_start: 17
+line_highlights: 18-20
 ---
+print(f'{name.upper()}: I\'ll have {quantity}')
 print(f'ROBOT: That\'ll be {price + quantity} credits.')
 print(f'{name.upper()}: That doesn\'t look right...')
 print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
@@ -30,6 +32,14 @@ ROBOT: You're correct 4 × 3 = 12
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try changing the values of `level`, `price`, and `quantity`.
+
+</div>
 
 ### Debugging
 

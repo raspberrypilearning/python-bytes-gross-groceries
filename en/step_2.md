@@ -16,10 +16,14 @@ Let’s use that to format your character’s line in the script!
 --- code ---
 ---
 language: python
-filename: spicy.py
+filename: main.py
 line_numbers: true
 line_number_start: 10
+line_highlight: 13
 ---
+# Story starts
+print(f'{name} and their friends walk into a space café')
+print(f'ROBOT: Today\'s special is {item}!')
 print(f'{name.upper()}: How spicy is that?')
 --- /code ---
 </div>
@@ -32,6 +36,6 @@ ZORP: How spicy is that?
 
 ### Tip
 
-You can also use `.upper()` for other characters in your script if you'd like.
+You can also use `.upper()` for other characters in your script if you'd like to expand your story.
 
 </div>

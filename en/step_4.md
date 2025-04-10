@@ -16,10 +16,12 @@ The variables in each f-string are placed inside curly braces `{}`. Python will 
 --- code ---
 ---
 language: python
-filename: spicy.py
+filename: main.py
 line_numbers: true
-line_number_start: 13
+line_number_start: 15
+line_highlights: 16-17
 ---
+print(f'The symbol blinks and changes to {emoji * level}!')
 print(f'ROBOT: Each plate of {item} costs {price} credits.')
 print(f'{name.upper()}: I\'ll have {quantity}')
 --- /code ---

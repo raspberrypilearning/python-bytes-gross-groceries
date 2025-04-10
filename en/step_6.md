@@ -15,9 +15,9 @@ This means the emoji will be repeated `level` times per dish, multiplied by how 
 --- code ---
 ---
 language: python
-filename: spicy.py
+filename: main.py
 line_numbers: true
-line_number_start: 18
+line_number_start: 21
 ---
 print('The robot prints an odd receipt:')
 print(emoji * level * total_price)
@@ -26,7 +26,7 @@ print(emoji * level * total_price)
 
 <div class="c-project-output">
 The robot prints an odd receipt:<br />
-🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️
+🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
