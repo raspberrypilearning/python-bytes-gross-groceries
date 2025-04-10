@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlight: 11-12
+line_highlights: 11-12
 ---
 # Variables
 name = 'Zorp'

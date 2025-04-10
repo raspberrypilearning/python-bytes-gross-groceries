@@ -19,7 +19,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 10
-line_highlight: 13
+line_highlights: 13
 ---
 # Story starts
 print(f'{name} and their friends walk into a space café')
