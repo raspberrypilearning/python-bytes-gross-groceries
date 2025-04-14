@@ -20,7 +20,7 @@ Add these final lines to your program:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 24
+line_number_start: 21
 line_highlights: 24-27
 ---
 # Print recipe instructions
