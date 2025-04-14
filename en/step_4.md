@@ -1,16 +1,13 @@
-<h2 class="c-project-heading--task">Add the price and the order</h2>
+<h2 class="c-project-heading--task">Start your recipe instructions</h2>
 --- task ---
-Use your variables to print the cost and quantity of the order.
+Use an f-string to describe what goes into the bowl
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Time to place an order</h2>
+<h2 class="c-project-heading--explainer">Tell the chef what to do</h2>
 
-Let’s add two more lines to your story.
+Now it’s time to turn your ingredient list into an actual recipe! 🍲
 
-1. The robot should tell the price of the item using the `item` and `price` variables.
-2. Your alien should order a certain number of plates using the `quantity` variable, and use `.upper()` to format the speaker’s name like a script.
-
-The variables in each f-string are placed inside curly braces `{}`. Python will swap those out with the actual values.
+Your first step will be to describe what’s going into the bowl. You’ll use all three ingredient variables in one f-string sentence like this:
 
 <div class="c-project-code">
 --- code ---
@@ -18,24 +15,31 @@ The variables in each f-string are placed inside curly braces `{}`. Python will 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-17
+line_number_start: 17
+line_highlights: 19
 ---
-print(f'The symbol blinks and changes to {emoji * level}!')
-print(f'ROBOT: Each plate of {item} costs {price} credits.')
-print(f'{name.upper()}: I\'ll have {quantity}')
+# Print recipe instructions
+print(f'To make this revolting recipe for {servings} people, mix {ingredient_1}, {ingredient_2}, and {ingredient_3} in a large bowl.')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ROBOT: Each plate of lava noodles costs 4 credits.<br />
-ZORP: I'll have 3
+<pre>To make this revolting recipe for 3 people, mix maggot mash 🐛, sock juice 🧦, and toenail sprinkles 🦶 in a large bowl.</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can change the name at the top of your file, and `.upper()` will always show it like a script character!
+This f-string contains **three variables**! You can mix variables and text freely inside one string — just wrap each variable with `{}`.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- If your output looks funny, check for missing commas or spaces
+- Make sure the string starts with `f'` and not just `'`
 
 </div>

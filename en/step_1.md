@@ -1,15 +1,22 @@
-<h2 class="c-project-heading--task">Set the stage</h2>
+<h2 class="c-project-heading--task">Write your first disgusting ingredient</h2>
 --- task ---
-Print the opening scene of your space café story using the `name` variable.
+Add a gross ingredient and print it using an f-string
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Welcome to the play!</h2>
+<h2 class="c-project-heading--explainer">Start your recipe</h2>
 
-You’ve got some starter code that defines the characters and numbers. You can change these at any time.
+The owner of an odd restaurant has decided to use code to help make their recipes. You're the coder they've hired. 🧑‍💻  
+Your job is to help create the grossest recipe card ever 🤢
 
- 📕 Let’s start the story.  📕
+Let’s start by adding your first ingredient. But before we write any code, you’ll notice some lines that start with `#` — these are **comments**.
 
-You can use f-strings in Python to add variables into your text. You need to place an `f` before the string starts and the variable name needs to be surrounded by `{}`
+Comments are notes in your code that help you (and others!) understand what each part does. Python ignores them when your program runs.
+
+Now try this:
+
+1. Choose a disgusting ingredient like `'maggot mash 🐛'` or `'slug slime 🐌'`.
+2. Decide how much of it you want to use. Let’s say `50` grams.
+3. Use an **f-string** to print the amount and the ingredient.
 
 <div class="c-project-code">
 --- code ---
@@ -17,35 +24,38 @@ You can use f-strings in Python to add variables into your text. You need to pla
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 11-12
+line_number_start: 3
+line_highlights: 5-7
 ---
-# Variables
-name = 'Zorp'
-item = 'lava noodles'
-emoji = '🌶️'
-level = 5
-price = 4
-quantity = 3
-total_price = price * quantity
+# Ingredients and amounts for 1 person
 
-# Story starts
-print(f'{name} and their friends walk into a space café')
-print(f'ROBOT: Today\'s special is {item}!')
+ingredient_1 = 'maggot mash 🐛'
+amount_1 = 50
+
+print(f'{amount_1}g of {ingredient_1}')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-Zorp and their friends walk into a space café<br />
-ROBOT: Today's special is lava noodles!
+<pre>50g of maggot mash 🐛</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try changing the alien's name or the food to something fun!<br />
-👽 'Glorb' / 'galactic dumplings'<br />
-🛸 'Fizzbit' / 'black hole stew'
+If your code prints nothing or shows an error, check that:
+- You used **quotes** around your ingredient name (it's a string!)
+- You’ve spelled the variable names correctly
+- You used the `f` before the string in `print(f"...")`
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- If Python says there's a `NameError`, you may have a typo in your variable name
+- If you see `{amount_1}` in the output instead of the number, make sure your string starts with `f`
 
 </div>

@@ -1,13 +1,15 @@
-<h2 class="c-project-heading--task">Spice symbols</h2>
+<h2 class="c-project-heading--task">Add more ingredients</h2>
 --- task ---
-Show the robot’s spice symbol and multiply it using a variable.
+Add two more gross ingredients and scale them up using f-strings
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Heat meter</h2>
+<h2 class="c-project-heading--explainer">Make your recipe extra disgusting</h2>
 
-The robot uses emoji to describe how spicy it is.
+One ingredient is never enough for a proper disgusting dish! Let's add two more ingredients to your recipe.
 
-We can use `emoji * level` to repeat the emoji. This works because `emoji` is a string, and `level` is a number!
+1. Add `ingredient_2` and `ingredient_3` — give them gross names like `'sock juice 🧦'` or `'toenail sprinkles 🦶'`.
+2. Add matching `amount_2` and `amount_3` values.
+3. Use f-strings to print out **all three ingredients**, scaled up using your `servings` variable.
 
 <div class="c-project-code">
 --- code ---
@@ -15,24 +17,40 @@ We can use `emoji * level` to repeat the emoji. This works because `emoji` is a 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 13
-line_highlights: 14-15
+line_number_start: 5
+line_highlights: 7-15
 ---
-print(f'{name.upper()}: How spicy is that?')
-print(f'The robot displays {emoji} on it\'s screen.')
-print(f'The symbol blinks and changes to {emoji * level}!')
+ingredient_2 = 'sock juice 🧦'
+amount_2 = 30
+
+ingredient_3 = 'toenail sprinkles 🦶'
+amount_3 = 10
+
+print(f'{amount_1 * servings}g of {ingredient_1}')
+print(f'{amount_2 * servings}ml of {ingredient_2}')
+print(f'{amount_3 * servings}g of {ingredient_3}')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-The robot displays 🌶️ on it's screen.
-The symbol blinks and changes to 🌶️🌶️🌶️🌶️🌶️!
+<pre>150g of maggot mash 🐛
+90ml of sock juice 🧦
+30g of toenail sprinkles 🦶</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try making `level` higher or lower to see what happens.
+You can label each ingredient with different units like `g` (grams) or `ml` (millilitres) depending on what it is!
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- Make sure your variable names match exactly — Python is case-sensitive!
+- Don’t forget to multiply by `servings` inside each f-string
 
 </div>
