@@ -2,7 +2,7 @@
   {
     "filename":"meta.yml",
     "path":"en\/",
-    "content":"title: Python Bytes - Gross Groceries\nhero_image: images\/banner.png\ndescription: Write a revolting recipe card using variables, f-strings, and maths\nmeta_title: Learn to code with Gross Groceries | Python Bytes\nmeta_description: Learn how to use Python f-strings and variables to print a disgusting recipe for an odd restaurant.\nversion: 1\nlisted: false\ncopyedit: false\nlast_tested: \"2025-04-14\"\nsteps:\n  - title: step_1\n  - title: step_2\n    completion:\n      - engaged\n  - title: step_3\n  - title: step_4\n  - title: step_5\n    completion:\n      - internal\n      - external\n"
+    "content":"title: Python bytes - Gross groceries\nhero_image: images\/banner.png\ndescription: Write a revolting recipe card using variables, f-strings, and maths\nmeta_title: Learn to code with Gross Groceries | Python Bytes\nmeta_description: Learn how to use Python f-strings and variables to print a disgusting recipe for an odd restaurant.\nversion: 1\nlisted: false\ncopyedit: false\nlast_tested: \"2025-04-14\"\nsteps:\n  - title: step_1\n  - title: step_2\n    completion:\n      - engaged\n  - title: step_3\n  - title: step_4\n  - title: step_5\n    completion:\n      - internal\n      - external\n"
   },
   {
     "filename":"main.py",
@@ -47,6 +47,6 @@
   {
     "filename":"main.py",
     "path":"en\/solutions\/",
-    "content":"# Gross Groceries recipe card\n\n# Ingredients and amounts for 1 person\ningredient_1 = 'maggot mash \ud83d\udc1b'\namount_1 = 50\n\ningredient_2 = 'sock juice \ud83e\udde6'\namount_2 = 30\n\ningredient_3 = 'toenail sprinkles \ud83e\uddb6'\namount_3 = 10\n\n# Number of servings\nservings = 3\n\n# Scaled-up ingredients\nprint(f'{amount_1 * servings}g of {ingredient_1}')\nprint(f'{amount_2 * servings}ml of {ingredient_2}')\nprint(f'{amount_3 * servings}g of {ingredient_3}')\n\n# Print recipe instructions\nprint(f'To make this revolting recipe for {servings} people, mix {ingredient_1}, {ingredient_2}, and {ingredient_3} in a large bowl.')\nprint(f'Add {amount_1 * servings}g of {ingredient_1} and pour over {amount_2 * servings}ml of {ingredient_2}.')\nprint(f'Sprinkle with {amount_3 * servings}g of {ingredient_3} and serve cold. Yum!')\n"
+    "content":"# Gross Groceries recipe card\n\n# Ingredients and amounts for 1 person\n\ningredient_1 = 'maggot mash \ud83d\udc1b'\namount_1 = 50\n\ningredient_2 = 'sock juice \ud83e\udde6'\namount_2 = 30\n\ningredient_3 = 'toenail sprinkles \ud83e\uddb6'\namount_3 = 10\n# Number of servings\nservings = 3\n\n# Scaled-up ingredients\nprint(f'{amount_1 * servings}g of {ingredient_1}')\nprint(f'{amount_2 * servings}ml of {ingredient_2}')\nprint(f'{amount_3 * servings}g of {ingredient_3}')\n\n# Print recipe instructions\nprint()\nprint(f'To make this revolting recipe for {servings} people add {amount_1 * servings}g of {ingredient_1} to a large bowl.')\nprint()\nprint(f'Pour over {amount_2 * servings}ml of {ingredient_2}.')\nprint()\nprint(f'Sprinkle with {amount_3 * servings}g of {ingredient_3} and serve cold \ud83e\uddca. Yum!')\n"
   }
 ]
