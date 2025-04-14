@@ -1,14 +1,16 @@
-# default-project-template
+# Python bytes - Gross groceries
 
-![default-project-template](banner.png)
+![A cartoon recipe card with gross ingredients like sock juice and toenail sprinkles](en/images/banner.png)
 
-Find the project online at [projects.raspberrypi.org/en/projects/default-project-template](https://projects.raspberrypi.org/en/projects/default-project-template)
+Project description
+
+Find the project online at [projects.raspberrypi.org/en/projects/python-bytes-gross-groceries](https://projects.raspberrypi.org/en/projects/python-bytes-gross-groceries)
 
 ## Resources
-For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/default-project-template/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/default-project-template/tree/master/en/solutions).
+For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/python-bytes-gross-groceries/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/python-bytes-gross-groceries/tree/master/en/solutions).
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licence
- See [LICENCE.md](LICENCE.md)
+See [LICENCE.md](LICENCE.md)
