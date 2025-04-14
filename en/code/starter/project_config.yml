@@ -1,4 +1,4 @@
-name: "Python bytes - Spicy strings"
-identifier: "python-bytes-spicy-strings"
-type: 'python'
+name: "Python Bytes - Gross Groceries"
+identifier: "python-bytes-gross-groceries"
+type: python
 build: true

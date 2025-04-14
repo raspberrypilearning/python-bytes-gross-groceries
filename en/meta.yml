@@ -1,12 +1,12 @@
-title: "Spicy Strings 🌶️🧪"
+title: Python bytes - Gross groceries
 hero_image: images/banner.png
-description: Build a space-themed play with Python f-strings and emojis.
-meta_title: Python coding projects for kids and teens | Spicy Strings
-meta_description: Use Python f-strings, variables, and emoji to script a silly space café scene and fix a robot's maths mistake!
-version: 2
+description: Write a revolting recipe card using variables, f-strings, and maths
+meta_title: Learn to code with Gross Groceries | Python Bytes
+meta_description: Learn how to use Python f-strings and variables to print a disgusting recipe for an odd restaurant.
+version: 1
 listed: false
 copyedit: false
-last_tested: "2025-04-04"
+last_tested: "2025-04-14"
 steps:
   - title: step_1
   - title: step_2
@@ -15,7 +15,6 @@ steps:
   - title: step_3
   - title: step_4
   - title: step_5
-  - title: step_6
     completion:
       - internal
       - external

@@ -1,16 +1,15 @@
-<h2 class="c-project-heading--task">Ask a question</h2>
+<h2 class="c-project-heading--task">Feed more people</h2>
 --- task ---
-Make your character ask how spicy the food is using `.upper()` to format the speaker name like a script.
+Add a servings variable and use it to scale up your ingredient
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Is it too spicy?</h2>
+<h2 class="c-project-heading--explainer">Make it serve more than one!</h2>
 
-In scripts and plays, the speaker’s name is usually written in **capital letters**.  
-We can do this in Python using `.upper()` on a string.
+Right now, your ingredient amount is for just **one** person. But what if you wanted to feed 3, or even 10 people?
 
-For example, `name.upper()` will change `'Zorp'` to `'ZORP'`.
+Instead of writing new numbers, you can **multiply** the amount by the number of servings — using maths inside your f-string!
 
-Let’s use that to format your character’s line in the script!
+Let’s add a variable called `servings`, and update your print line to use it:
 
 <div class="c-project-code">
 --- code ---
@@ -18,24 +17,34 @@ Let’s use that to format your character’s line in the script!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10
-line_highlights: 13
+line_number_start: 9
+line_highlights: 11-13
 ---
-# Story starts
-print(f'{name} and their friends walk into a space café')
-print(f'ROBOT: Today\'s special is {item}!')
-print(f'{name.upper()}: How spicy is that?')
+# Number of servings
+servings = 3
+
+# Scaled-up ingredients
+print(f'{amount_1 * servings}g of {ingredient_1}')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ZORP: How spicy is that?
+<pre>150g of maggot mash 🐛</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can also use `.upper()` for other characters in your script if you'd like to expand your story.
+You can do maths inside an f-string using `{}` — Python works it out before printing the message!
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- Make sure your variable name is `servings`, not `serving` or `serves`
+- Don’t forget the `*` for multiplication
 
 </div>

@@ -1,13 +1,17 @@
-<h2 class="c-project-heading--task">A mistake in the maths</h2>
+<h2 class="c-project-heading--task">Finish your disgusting recipe</h2>
 --- task ---
-Make the robot say the wrong total, and correct it using variables.
+Use more f-strings to describe how to prepare your ingredients
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Oh no! The robot gets it wrong</h2>
+<h2 class="c-project-heading--explainer">Serve it up 🤢</h2>
 
-Let’s show a mistake and then correct it using your variables.
+Let’s finish the recipe with two more instructions. These will describe:
 
-Instead of multiplying `price * quantity`, the robot adds them together by mistake. We’ll help your character spot and fix it!
+- How much of the first ingredient to add
+- How much of the second to pour over
+- How to finish with the third!
+
+Use **maths inside your f-strings** just like you did in Step 3.
 
 <div class="c-project-code">
 --- code ---
@@ -15,34 +19,33 @@ Instead of multiplying `price * quantity`, the robot adds them together by mista
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 18-20
+line_number_start: 18
+line_highlights: 20-21
 ---
-print(f'{name.upper()}: I\'ll have {quantity}')
-print(f'ROBOT: That\'ll be {price + quantity} credits.')
-print(f'{name.upper()}: That doesn\'t look right...')
-print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
+print(f'Add {amount_1 * servings}g of {ingredient_1} and pour over {amount_2 * servings}ml of {ingredient_2}.')
+print(f'Sprinkle with {amount_3 * servings}g of {ingredient_3} and serve cold. Yum!')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ROBOT: That'll be 7 credits.<br />
-ZORP: That doesn't look right...<br />
-ROBOT: You're correct 4 × 3 = 12
+<pre>To make this revolting recipe for 3 people, mix maggot mash 🐛, sock juice 🧦, and toenail sprinkles 🦶 in a large bowl.
+Add 150g of maggot mash 🐛 and pour over 90ml of sock juice 🧦.
+Sprinkle with 30g of toenail sprinkles 🦶 and serve cold. Yum!</pre>
 </div>
-
-<div class="c-project-callout c-project-callout--debug">
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try changing the values of `level`, `price`, and `quantity`.
+Each of your `print()` lines can be a sentence in your recipe. You’re combining variables, maths, and storytelling — all in one!
 
 </div>
 
+<div class="c-project-callout c-project-callout--debug">
+
 ### Debugging
 
-If you're not getting the right total, double check your `price`, `quantity`, and `total_price` values are set correctly at the top of your file.
+- Watch out for missing `* servings` — without it, your numbers won’t scale!
+- Make sure each sentence is inside `print(f'...')`
 
 </div>
