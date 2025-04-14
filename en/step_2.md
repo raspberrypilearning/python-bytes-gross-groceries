@@ -17,8 +17,8 @@ Let’s add a variable called `servings`, and update your print line to use it:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 9
-line_highlights: 11-13
+line_number_start: 7
+line_highlights: 8,11
 ---
 # Number of servings
 servings = 3
