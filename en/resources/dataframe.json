@@ -48,5 +48,25 @@
     "filename":"main.py",
     "path":"en\/solutions\/",
     "content":"# Gross Groceries recipe card\n\n# Ingredients and amounts for 1 person\n\ningredient_1 = 'maggot mash \ud83d\udc1b'\namount_1 = 50\n\ningredient_2 = 'sock juice \ud83e\udde6'\namount_2 = 30\n\ningredient_3 = 'toenail sprinkles \ud83e\uddb6'\namount_3 = 10\n# Number of servings\nservings = 3\n\n# Scaled-up ingredients\nprint(f'{amount_1 * servings}g of {ingredient_1}')\nprint(f'{amount_2 * servings}ml of {ingredient_2}')\nprint(f'{amount_3 * servings}g of {ingredient_3}')\n\n# Print recipe instructions\nprint()\nprint(f'To make this revolting recipe for {servings} people add {amount_1 * servings}g of {ingredient_1} to a large bowl.')\nprint()\nprint(f'Pour over {amount_2 * servings}ml of {ingredient_2}.')\nprint()\nprint(f'Sprinkle with {amount_3 * servings}g of {ingredient_3} and serve cold \ud83e\uddca. Yum!')\n"
+  },
+  {
+    "filename":"README.md",
+    "path":"python-bytes-gross-groceries\/",
+    "content":"# Python bytes - Gross groceries\n\n![A cartoon recipe card with gross ingredients like sock juice and toenail sprinkles](en\/images\/banner.png)\n\nProject description\n\nFind the project online at [projects.raspberrypi.org\/en\/projects\/python-bytes-gross-groceries](https:\/\/projects.raspberrypi.org\/en\/projects\/python-bytes-gross-groceries)\n\n## Resources\nFor project materials and solutions, see [en\/resources](https:\/\/github.com\/raspberrypilearning\/python-bytes-gross-groceries\/tree\/master\/en\/resources) and [en\/solutions](https:\/\/github.com\/raspberrypilearning\/python-bytes-gross-groceries\/tree\/master\/en\/solutions).\n\n## Contributing\nSee [CONTRIBUTING.md](CONTRIBUTING.md)\n\n## Licence\nSee [LICENCE.md](LICENCE.md)\n"
+  },
+  {
+    "filename":"CONTRIBUTING.md",
+    "path":"python-bytes-gross-groceries\/",
+    "content":"# Contributing\n\nAll contributions are assumed to be licensed under the same licence as the source, i.e. [CC BY-SA](http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/). This licence must remain in all derivatives of this work.\n\n## Issues\n\nIf you find a mistake, bug, or other problem, please [open an issue](https:\/\/github.com\/raspberrypilearning\/python-bytes-gross-groceries\/issues) in this repository.\n\n## Pull requests\n\nAll edits to a resource should be made to the draft branch or to a fork of the repo. These patches can then be submitted as a pull request.\n\nIf you fix a mistake, bug, or problem or have something to contribute, please create a pull request for each modification. Please consider grouping modifications sensibly, e.g. don't bundle typo fixes in the same pull request as code changes, file them separately instead.\n\nPlease note that sometimes things are done for pedagogical reasons so changes which make sense from a software engineering perspective (reducing duplication or making use of more advanced programming language features) may not be suitable to maintain the intended educational value.\n\n## Derivatives\n\nSee [LICENCE.md](LICENCE.md) for content licence. The licence must remain in all derivatives of this work.\n\n## Translation\n\nYou can help us make this project available to more people around the world by translating it. For more information, please go to [rpf.io\/translate](https:\/\/rpf.io\/translate).\n"
+  },
+  {
+    "filename":"LICENCE.md",
+    "path":"python-bytes-gross-groceries\/",
+    "content":"# Licence\n\nUnless otherwise specified, everything in this repository is covered by the following licence:\n\n[![Creative Commons licence](http:\/\/i.creativecommons.org\/l\/by-sa\/4.0\/88x31.png)](http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/)\n\n**Python bytes - Gross groceries** by the [Raspberry Pi Foundation](http:\/\/www.raspberrypi.org) is licensed under a [Creative Commons Attribution 4.0 International licence](http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/).\n\nBased on a work at https:\/\/github.com\/raspberrypilearning\/python-bytes-gross-groceries.\n"
+  },
+  {
+    "filename":"crowdin.yml",
+    "path":"python-bytes-gross-groceries\/",
+    "content":"files:\n  - source: \/en\/**\/*.*\n    translation: \/%locale%\/**\/%original_file_name%\n"
   }
 ]
