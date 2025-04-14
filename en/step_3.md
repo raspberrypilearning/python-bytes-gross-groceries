@@ -17,15 +17,18 @@ One ingredient is never enough for a proper disgusting dish! Let's add two more 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 5
-line_highlights: 7-15
+line_number_start: 3
+line_highlights: 8-10,11-12,18-19
 ---
 ingredient_2 = 'sock juice 🧦'
 amount_2 = 30
 
 ingredient_3 = 'toenail sprinkles 🦶'
 amount_3 = 10
+# Number of servings
+servings = 3
 
+# Scaled-up ingredients
 print(f'{amount_1 * servings}g of {ingredient_1}')
 print(f'{amount_2 * servings}ml of {ingredient_2}')
 print(f'{amount_3 * servings}g of {ingredient_3}')

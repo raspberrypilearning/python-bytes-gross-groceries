@@ -25,13 +25,16 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
-line_highlights: 5-7
+line_highlights: 5-6,11
 ---
 # Ingredients and amounts for 1 person
 
 ingredient_1 = 'maggot mash 🐛'
 amount_1 = 50
+# Number of servings
 
+
+# Scaled-up ingredients
 print(f'{amount_1}g of {ingredient_1}')
 --- /code ---
 </div>
@@ -47,7 +50,7 @@ print(f'{amount_1}g of {ingredient_1}')
 If your code prints nothing or shows an error, check that:
 - You used **quotes** around your ingredient name (it's a string!)
 - You’ve spelled the variable names correctly
-- You used the `f` before the string in `print(f"...")`
+- You used the `f` before the string in `print(f'...')`
 
 </div>
 
