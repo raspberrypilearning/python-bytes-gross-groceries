@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Write your first disgusting ingredient</h2>
 --- task ---
-Add a gross ingredient and print it using an f-string
+Add a gross ingredient and print it using an f-string.
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Start your recipe</h2>
