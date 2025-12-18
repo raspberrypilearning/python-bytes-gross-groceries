@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add more ingredients</h2>
+
 --- task ---
+
 Add two more gross ingredients and scale them up using f-strings
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make your recipe extra disgusting</h2>
@@ -20,6 +23,7 @@ line_numbers: true
 line_number_start: 3
 line_highlights: 8-10,11-12,18-19
 ---
+
 ingredient_2 = 'sock juice 🧦'
 amount_2 = 30
 
@@ -32,7 +36,9 @@ servings = 3
 print(f'{amount_1 * servings}g of {ingredient_1}')
 print(f'{amount_2 * servings}ml of {ingredient_2}')
 print(f'{amount_3 * servings}g of {ingredient_3}')
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

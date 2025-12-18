@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Write your first disgusting ingredient</h2>
+
 --- task ---
+
 Add a gross ingredient and print it using an f-string.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Start your recipe</h2>
@@ -27,6 +30,7 @@ line_numbers: true
 line_number_start: 3
 line_highlights: 5-6,11
 ---
+
 # Ingredients and amounts for 1 person
 
 ingredient_1 = 'maggot mash 🐛'
@@ -36,7 +40,9 @@ amount_1 = 50
 
 # Scaled-up ingredients
 print(f'{amount_1}g of {ingredient_1}')
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">
