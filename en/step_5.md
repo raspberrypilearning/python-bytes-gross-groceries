@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Finish your disgusting recipe</h2>
+
 --- task ---
+
 Use more f-strings to describe how to prepare your ingredients
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Serve it up 🤢</h2>
@@ -23,6 +26,7 @@ line_numbers: true
 line_number_start: 21
 line_highlights: 24-27
 ---
+
 # Print recipe instructions
 print()
 print(f'To make this revolting recipe for {servings} people add {amount_1 * servings}g of {ingredient_1} to a large bowl.')
@@ -30,7 +34,9 @@ print()
 print(f'Pour over {amount_2 * servings}ml of {ingredient_2}.')
 print()
 print(f'Sprinkle with {amount_3 * servings}g of {ingredient_3} and serve cold 🧊. Yum!')
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

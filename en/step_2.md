@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Feed more people</h2>
+
 --- task ---
+
 Add a servings variable and use it to scale up your ingredient
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make it serve more than one!</h2>
@@ -20,12 +23,15 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 8,11
 ---
+
 # Number of servings
 servings = 3
 
 # Scaled-up ingredients
 print(f'{amount_1 * servings}g of {ingredient_1}')
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

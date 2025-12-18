@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Start your recipe instructions</h2>
+
 --- task ---
+
 Use an f-string to describe the number of people and the first ingredient
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Tell the chef what to do</h2>
@@ -18,10 +21,13 @@ line_numbers: true
 line_number_start: 21
 line_highlights: 22-23
 ---
+
 # Print recipe instructions
 print()
 print(f'To make this revolting recipe for {servings} people add {amount_1 * servings}g of {ingredient_1} to a large bowl.')
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">
