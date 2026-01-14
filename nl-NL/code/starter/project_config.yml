@@ -1,0 +1,4 @@
+name: "Python Bytes - Gore boodschappen"
+identifier: "python-bytes-gross-groceries"
+type: python
+build: true
