@@ -1,0 +1,20 @@
+title: Python bytes - Gross groceries
+hero_image: images/banner.png
+description: Crée une fiche de recette dégoûtante en utilisant des variables, des f-strings et des maths
+meta_title: Apprendre à coder avec Gross Groceries | Python Bytes
+meta_description: Apprends à utiliser les f-strings et les variables Python pour imprimer une recette dégoûtante pour un restaurant étrange.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-14"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+    completion:
+      - internal
+      - external
