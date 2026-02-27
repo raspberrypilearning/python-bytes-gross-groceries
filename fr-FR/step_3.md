@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter plus d'ingrédients</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute deux autres ingrédients répugnants et augmente-les en utilisant des f-strings
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Rendre ta recette plus dégoûtante</h2>
 
@@ -40,7 +40,7 @@ print(f'{quantité_1 \* portions} g de {ingredient_1}')
 print(f'{quantité_2 \* portions} ml de {ingredient_2}')
 print(f'{quantité_3 \* portions} g de {ingredient_3}')
 
-\--- /code ---
+--- /code ---
 
 </div>
 

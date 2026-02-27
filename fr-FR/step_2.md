@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Nourrir plus de personnes</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute une variable de portions et utilise-la pour adapter la quantité de ton ingrédient
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Préparer pour plusieurs personnes !</h2>
 
@@ -32,7 +32,7 @@ portions = 3
 
 print(f'{quantité_1 \* portions}g de {ingredient_1}')
 
-\--- /code ---
+--- /code ---
 
 </div>
 

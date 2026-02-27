@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Écrire ton premier ingrédient dégoûtant</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute un ingrédient dégoûtant et affiche-le à l'aide d'une f-string.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Commencer ta recette</h2>
 
@@ -42,7 +42,7 @@ quantité_1 = 50
 
 print(f'{amount_1}g de {ingredient_1}')
 
-\--- /code ---
+--- /code ---
 
 </div>
 
