@@ -25,12 +25,10 @@ line_highlights: 8,11
 ---
 
 # Aantal porties
-
 porties = 3
 
 # Ingrediënten in grotere hoeveelheden
-
-print(f'{hoeveelheid_1 \* porties} g van {ingredient_1}')
+print(f'{hoeveelheid_1 * porties} g van {ingredient_1}')
 
 --- /code ---
 

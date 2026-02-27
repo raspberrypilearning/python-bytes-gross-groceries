@@ -29,13 +29,12 @@ line_highlights: 24-27
 ---
 
 # Receptinstructies afdrukken
-
 print()
-print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 \* porties} g van {ingredient_1} toe aan een grote kom.')
+print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 * porties} g van {ingredient_1} toe aan een grote kom.')
 print()
-print(f'Giet er {hoeveelheid_2 \* porties} ml van {ingredient_2} overheen.')
+print(f'Giet er {hoeveelheid_2 * porties} ml van {ingredient_2} overheen.')
 print()
-print(f'Bestrooi met {hoeveelheid_3 \* porties} g van {ingredient_3} en serveer koud 🧊. Jammie!')
+print(f'Bestrooi met {hoeveelheid_3 * porties} g van {ingredient_3} en serveer koud 🧊. Jammie!')
 
 --- /code ---
 
@@ -92,12 +91,11 @@ Geef feedback </a>
 </div>
 
 ***
+
 Dit project werd vertaald door vrijwilligers:
 
-[name]
+Robert-Jan Kempenaar
 
-[name]
-
-[name]
+Iny van Beuningen
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

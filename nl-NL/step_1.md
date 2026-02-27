@@ -33,7 +33,7 @@ line_highlights: 5-6,11
 
 # Ingrediënten en hoeveelheden voor 1 persoon
 
-ingrediënt_1 = 'madenpuree 🐛'
+ingredient_1 = 'madenpuree 🐛'
 hoeveelheid_1 = 50
 
 # Aantal porties

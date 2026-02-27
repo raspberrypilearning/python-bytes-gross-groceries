@@ -23,9 +23,8 @@ line_highlights: 22-23
 ---
 
 # Receptinstructies afdrukken
-
 print()
-print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 \* porties} g van {ingredient_1} toe aan een grote kom.')
+print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 * porties} g van {ingredient_1} toe aan een grote kom.')
 
 --- /code ---
 

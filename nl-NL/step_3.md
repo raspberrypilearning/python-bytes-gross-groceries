@@ -24,21 +24,19 @@ line_number_start: 3
 line_highlights: 8-10,11-12,18-19
 ---
 
-ingrediënt_2 = 'sokkensap 🧦'
+ingredient_2 = 'sokkensap 🧦'
 hoeveelheid_2 = 30
 
-ingrediënt_3 = 'teennagelsprinkles 🦶'
+ingredient_3 = 'teennagelsprinkles 🦶'
 hoeveelheid_3 = 10
 
 # Aantal porties
-
 porties = 3
 
 # Ingrediënten in grotere hoeveelheden
-
-print(f'{hoeveelheid_1 \* porties} g van {ingredient_1}')
-print(f'{hoeveelheid_2 \* porties} ml van {ingredient_2}')
-print(f'{hoeveelheid_3 \* porties} g van {ingredient_3}')
+print(f'{hoeveelheid_1 * porties} g van {ingredient_1}')
+print(f'{hoeveelheid_2 * porties} ml van {ingredient_2}')
+print(f'{hoeveelheid_3 * porties} g van {ingredient_3}')
 
 --- /code ---
 

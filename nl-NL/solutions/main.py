@@ -2,13 +2,13 @@
 
 # Ingrediënten en hoeveelheden voor 1 persoon
 
-ingrediënt_1 = 'madenpuree 🐛'
+ingredient_1 = 'madenpuree 🐛'
 hoeveelheid_1 = 50
 
-ingrediënt_2 = 'sokkensap 🧦'
+ingredient_2 = 'sokkensap 🧦'
 hoeveelheid_2 = 30
 
-ingrediënt_3 = 'teennagelsprinkles 🦶'
+ingredient_3 = 'teennagelsprinkles 🦶'
 hoeveelheid_3 = 10
 # Aantal porties
 porties = 3
