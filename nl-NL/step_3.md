@@ -10,7 +10,7 @@ Voeg nog twee gore ingrediënten toe en vergroot de hoeveelheden met behulp van 
 
 Eén ingrediënt is nooit genoeg voor een echt walgelijk gerecht! Laten we nog twee ingrediënten aan je recept toevoegen.
 
-1. Voeg ingrediënt_2 en ingrediënt_3 toe en geef ze afschuwelijke namen zoals 'sokkensap 🧦' of 'teennagelsprinkles 🦶'.
+1. Voeg `ingredient_2` en `ingredient_3` toe en geef ze afschuwelijke namen zoals 'sokkensap 🧦' of 'teennagelsprinkles 🦶'.
 2. Voeg overeenkomende waarden voor `hoeveelheid_2` en `hoeveelheid_3` toe.
 3. Gebruik f-tekenreeksen om **alle drie de ingrediënten** af te drukken, opgeschaald met behulp van je variabele `porties`.
 
