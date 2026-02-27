@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Schrijf je eerste walgelijke ingrediënt op</h2>
 
-\--- task ---
+--- task ---
 
 Voeg een goor ingrediënt toe en print het met behulp van een f-tekenreeks.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Begin je recept</h2>
 
@@ -42,7 +42,7 @@ hoeveelheid_1 = 50
 
 print(f'{hoeveelheid_1} g van {ingredient_1}')
 
-\--- /code ---
+--- /code ---
 
 </div>
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Maak je walgelijke recept af</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik meer f-tekenreeksen om te beschrijven hoe je je ingrediënten moet bereiden
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Dien het maar op 🤢</h2>
 
@@ -37,7 +37,7 @@ print(f'Giet er {hoeveelheid_2 \* porties} ml van {ingredient_2} overheen.')
 print()
 print(f'Bestrooi met {hoeveelheid_3 \* porties} g van {ingredient_3} en serveer koud 🧊. Jammie!')
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -90,3 +90,14 @@ transition: background-color 0.2s;
 Geef feedback </a>
 
 </div>
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+[name]
+
+[name]
+
+[name]
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

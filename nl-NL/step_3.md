@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg meer ingrediënten toe</h2>
 
-\--- task ---
+--- task ---
 
 Voeg nog twee gore ingrediënten toe en vergroot de hoeveelheden met behulp van f-tekenreeksen
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Maak je recept extra walgelijk</h2>
 
@@ -40,7 +40,7 @@ print(f'{hoeveelheid_1 \* porties} g van {ingredient_1}')
 print(f'{hoeveelheid_2 \* porties} ml van {ingredient_2}')
 print(f'{hoeveelheid_3 \* porties} g van {ingredient_3}')
 
-\--- /code ---
+--- /code ---
 
 </div>
 
