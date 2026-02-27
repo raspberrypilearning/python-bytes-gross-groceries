@@ -10,8 +10,8 @@ Ajoute deux autres ingrédients répugnants et augmente-les en utilisant des f-s
 
 Un ingrédient ne suffit jamais pour un plat dégoûtant ! Ajoutons deux ingrédients supplémentaires à ta recette.
 
-1. Ajoute `ingrédient_2` et `ingrédient_3` — donne-leur des noms dégoûtants comme « jus de chaussette 🧦 » ou « miettes d'ongles d'orteils 🦶 ».
-2. Ajoute les valeurs correspondantes `quantité_2` et `quantité_3`.
+1. Ajoute `ingredient_2` et `ingredient_3` — donne-leur des noms dégoûtants comme « jus de chaussette 🧦 » ou « miettes d'ongles d'orteils 🦶 ».
+2. Ajoute les valeurs correspondantes `quantite_2` et `quantite_3`.
 3. Utilise les f-strings pour afficher **les trois ingrédients**, augmenté à l'aide de ta variable `portions`.
 
 <div class="c-project-code">
@@ -24,11 +24,11 @@ line_number_start: 3
 line_highlights: 8-10,11-12,18-19
 ---
 
-ingrédient_2 = 'jus de chaussette 🧦'
-quantité_2 = 30
+ingredient_2 = 'jus de chaussette 🧦'
+quantite_2 = 30
 
-ingrédient_3 = 'miettes d'ongles de pied 🦶'
-quantité_3 = 10
+ingredient_3 = 'miettes d\'ongles de pied 🦶'
+quantite_3 = 10
 
 # Nombre de portions
 
@@ -36,9 +36,9 @@ portions = 3
 
 # Ingrédients en plus grande quantité
 
-print(f'{quantité_1 \* portions} g de {ingredient_1}')
-print(f'{quantité_2 \* portions} ml de {ingredient_2}')
-print(f'{quantité_3 \* portions} g de {ingredient_3}')
+print(f'{quantite_1 * portions} g de {ingredient_1}')
+print(f'{quantite_2 * portions} ml de {ingredient_2}')
+print(f'{quantite_3 * portions} g de {ingredient_3}')
 
 --- /code ---
 

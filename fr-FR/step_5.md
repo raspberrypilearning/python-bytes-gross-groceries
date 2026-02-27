@@ -31,11 +31,11 @@ line_highlights: 24-27
 # Imprimer les instructions de la recette
 
 print()
-print(f'Pour préparer cette recette dégoûtante pour {servings} personnes, ajoutez {quantité_1 \* portions} g de {ingredient_1} dans un grand bol.')
+print(f'Pour préparer cette recette dégoûtante pour {portions} personnes, ajoutez {quantite_1 * portions} g de {ingredient_1} dans un grand bol.')
 print()
-print(f'Versez {quantité_2 \* portions} ml de {ingredient_2}.')
+print(f'Versez {quantite_2 * portions} ml de {ingredient_2}.')
 print()
-print(f'Saupoudrez de {quantité_3 \* portions} g de {ingredient_3} et servez froid 🧊. Miam !')
+print(f'Saupoudrez de {quantite_3 * portions} g de {ingredient_3} et servez froid 🧊. Miam !')
 
 --- /code ---
 
@@ -92,12 +92,11 @@ Donner ton avis </a>
 </div>
 
 ***
+
 Ce projet a été traduit par des bénévoles:
 
-[name]
+Jonathan Vannieuwkerke
 
-[name]
-
-[name]
+Michel Arnols
 
 Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

@@ -30,7 +30,7 @@ portions = 3
 
 # Ingrédients en plus grande quantité
 
-print(f'{quantité_1 \* portions}g de {ingredient_1}')
+print(f'{quantite_1 * portions}g de {ingredient_1}')
 
 --- /code ---
 
@@ -53,6 +53,6 @@ Tu peux effectuer des calculs mathématiques à l'intérieur d'une f-string en u
 ### Débogage
 
 - Assure-toi que le nom de ta variable est `portions`, et non `portion` ou `part`
-- N'oublie pas l'astérisque (\*) pour la multiplication
+- N'oublie pas l'astérisque (*) pour la multiplication
 
 </div>

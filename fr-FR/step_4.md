@@ -25,7 +25,7 @@ line_highlights: 22-23
 # Imprimer les instructions de la recette
 
 print()
-print(f'Pour préparer cette recette dégoûtante pour {servings} personnes, ajoutez {quantité_1 \* portions} g de {ingredient_1} dans un grand bol.')
+print(f'Pour préparer cette recette dégoûtante pour {portions} personnes, ajoutez {quantite_1 * portions} g de {ingredient_1} dans un grand bol.')
 
 --- /code ---
 

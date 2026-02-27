@@ -33,14 +33,14 @@ line_highlights: 5-6,11
 
 # Ingrédients et quantités pour 1 personne
 
-ingrédient_1 = 'purée d'asticots 🐛'
-quantité_1 = 50
+ingredient_1 = 'purée d\'asticots 🐛'
+quantite_1 = 50
 
 # Nombre de portions
 
 # Ingrédients en plus grande quantité
 
-print(f'{amount_1}g de {ingredient_1}')
+print(f'{quantite_1}g de {ingredient_1}')
 
 --- /code ---
 
@@ -67,6 +67,6 @@ Si ton code n'affiche rien ou présente une erreur, vérifie que :
 ### Débogage
 
 - Si Python signale une erreur `NameError`, il se peut que tu aies une faute de frappe dans le nom de ta variable
-- Si tu vois `{amount_1}` dans le résultat au lieu du nombre, assure-toi que ta chaîne commence par `f`
+- Si tu vois `{quantite_1}` dans le résultat au lieu du nombre, assure-toi que ta chaîne commence par `f`
 
 </div>
