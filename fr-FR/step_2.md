@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Nourrir plus de personnes</h2>
 
---- task ---
+\--- task ---
 
 Ajoute une variable de portions et utilise-la pour adapter la quantité de ton ingrédient
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Préparer pour plusieurs personnes !</h2>
 
@@ -30,9 +30,9 @@ portions = 3
 
 # Ingrédients en plus grande quantité
 
-print(f'{quantite_1 * portions}g de {ingredient_1}')
+print(f'{quantite_1 \* portions} g de {ingredient_1}')
 
---- /code ---
+\--- /code ---
 
 </div>
 
@@ -53,6 +53,6 @@ Tu peux effectuer des calculs mathématiques à l'intérieur d'une f-string en u
 ### Débogage
 
 - Assure-toi que le nom de ta variable est `portions`, et non `portion` ou `part`
-- N'oublie pas l'astérisque (*) pour la multiplication
+- N'oublie pas l'astérisque (\*) pour la multiplication
 
 </div>
