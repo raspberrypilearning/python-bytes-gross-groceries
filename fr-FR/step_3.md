@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter plus d'ingrédients</h2>
 
---- task ---
+\--- task ---
 
 Ajoute deux autres ingrédients répugnants et augmente-les en utilisant des f-strings
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Rendre ta recette plus dégoûtante</h2>
 
@@ -27,7 +27,7 @@ line_highlights: 8-10,11-12,18-19
 ingredient_2 = 'jus de chaussette 🧦'
 quantite_2 = 30
 
-ingredient_3 = 'miettes d\'ongles de pied 🦶'
+ingredient_3 = 'miettes d'ongles de pied 🦶'
 quantite_3 = 10
 
 # Nombre de portions
@@ -36,11 +36,11 @@ portions = 3
 
 # Ingrédients en plus grande quantité
 
-print(f'{quantite_1 * portions} g de {ingredient_1}')
-print(f'{quantite_2 * portions} ml de {ingredient_2}')
-print(f'{quantite_3 * portions} g de {ingredient_3}')
+print(f'{quantite_1 \* portions} g de {ingredient_1}')
+print(f'{quantite_2 \* portions} ml de {ingredient_2}')
+print(f'{quantite_3 \* portions} g de {ingredient_3}')
 
---- /code ---
+\--- /code ---
 
 </div>
 
