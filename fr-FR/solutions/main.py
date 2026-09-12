@@ -15,7 +15,7 @@ portions = 3
 
 # Ingrédients en plus grande quantité
 print(f'{quantite_1 * portions} g de {ingredient_1}')
-print(f'{quantite_2 * portions} ml de {ingredient_2}')
+print(f'{quantite_2 * portions} g de {ingredient_2}')
 print(f'{quantite_3 * portions} g de {ingredient_3}')
 
 # Imprimer les instructions de la recette

@@ -1,0 +1,4 @@
+name: "Python Bytes - Огидні продукти"
+identifier: "python-bytes-gross-groceries"
+type: python
+build: true
