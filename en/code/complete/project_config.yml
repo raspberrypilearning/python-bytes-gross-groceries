@@ -1,0 +1,4 @@
+name: "Python Bytes - Gross Groceries complete"
+identifier: "python-bytes-gross-groceries-complete"
+type: python
+build: true
