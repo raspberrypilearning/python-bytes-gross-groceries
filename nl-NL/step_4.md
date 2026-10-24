@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Begin met de instructies voor je recept</h2>
 
---- task ---
+\--- task ---
 
 Gebruik een f-tekenreeks om het aantal personen en het eerste ingrediënt te beschrijven
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Vertel de chef wat hij moet doen</h2>
 
@@ -23,10 +23,11 @@ line_highlights: 22-23
 ---
 
 # Receptinstructies afdrukken
-print()
-print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 * porties} g van {ingredient_1} toe aan een grote kom.')
 
---- /code ---
+print()
+print(f'Om dit walgelijke recept voor {porties} mensen te maken, voeg je {hoeveelheid_1 \* porties} g van {ingredient_1} toe aan een grote kom.')
+
+\--- /code ---
 
 </div>
 
