@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Geef meer mensen te eten</h2>
 
---- task ---
+\--- task ---
 
 Voeg een variabele voor het aantal porties toe en gebruik deze om de hoeveelheid van je ingrediënt aan te passen
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Maak er een gerecht van dat voor meer dan één persoon geschikt is!</h2>
 
@@ -25,12 +25,14 @@ line_highlights: 8,11
 ---
 
 # Aantal porties
+
 porties = 3
 
 # Ingrediënten in grotere hoeveelheden
-print(f'{hoeveelheid_1 * porties} g van {ingredient_1}')
 
---- /code ---
+print(f'{hoeveelheid_1 \* porties} g van {ingredient_1}')
+
+\--- /code ---
 
 </div>
 
