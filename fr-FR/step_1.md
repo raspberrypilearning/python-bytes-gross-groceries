@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Écrire ton premier ingrédient dégoûtant</h2>
 
---- task ---
+\--- task ---
 
 Ajoute un ingrédient dégoûtant et affiche-le à l'aide d'une f-string.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Commencer ta recette</h2>
 
@@ -40,9 +40,9 @@ quantite_1 = 50
 
 # Ingrédients en plus grande quantité
 
-print(f'{quantite_1}g de {ingredient_1}')
+print(f'{amount_1}g de {ingredient_1}')
 
---- /code ---
+\--- /code ---
 
 </div>
 
@@ -67,6 +67,6 @@ Si ton code n'affiche rien ou présente une erreur, vérifie que :
 ### Débogage
 
 - Si Python signale une erreur `NameError`, il se peut que tu aies une faute de frappe dans le nom de ta variable
-- Si tu vois `{quantite_1}` dans le résultat au lieu du nombre, assure-toi que ta chaîne commence par `f`
+- Si tu vois `{amount_1}` dans le résultat au lieu du nombre, assure-toi que ta chaîne commence par `f`
 
 </div>

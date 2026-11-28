@@ -1,0 +1,20 @@
+title: Python Bytes - Огидні продукти
+hero_image: images/banner.png
+description: Напишіть огидний рецепт використовуючи змінні, f-strings та математику
+meta_title: Навчіться програмувати за допомогою огидних продуктів | Python Bytes
+meta_description: Дізнайтесь як використовувати f-strings та змінні в Python для написання огидного рецепта для дивного ресторану.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-14"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+    completion:
+      - internal
+      - external
